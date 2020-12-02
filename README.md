@@ -8,7 +8,7 @@ Provided that you have Python 3.7+ installed on your system, you should not requ
 
 The script intended to be used from a command with `python3` available in your shell's namespace. All three of these scripts have a `-h` or `--help` option where you can see the available options. Also note that `-m`, representing the minimum (relative) support threshold, has a default value of 0.5, and that the default output file specified by `-o` is `"MiningResults.txt"`.
 
-### apriori.py
+### fpgrowth.py
 ```
 usage: fpgrowth.py [-h] -i IN_FILE [-o OUT_FILE] [-m MIN_SUPP]
 
